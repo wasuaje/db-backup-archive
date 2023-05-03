@@ -6,8 +6,7 @@ import glob
 import sys
 
 source_folder = sys.argv[1] if len(sys.argv) > 1 else '.'
-# containers = ["todocasero", "luma02", "luma01", "bosquejo"]
-containers = ["todocasero"]
+containers = ["todocasero", "luma02", "luma01", "bosquejo"]
 
 # environment variable into account.
 connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
